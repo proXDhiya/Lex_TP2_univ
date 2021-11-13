@@ -1,5 +1,9 @@
 %%
+
 [+*-/]+     printf("operator");
+m*          printf("Une suite de M");
+[bc]{2,}    printf("Une suite de bc");
+.{3}        printf("Mot de longueur 3");
 .*          printf("error");
 
 %%
