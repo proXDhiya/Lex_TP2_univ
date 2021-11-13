@@ -1,2 +1,5 @@
-*.c
+# ignore auto lex.yy.c file
+*.yy.c
+
+# ignore binary file
 *.out
