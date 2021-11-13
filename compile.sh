@@ -3,7 +3,7 @@
 # $1 first arg represent lex file PATH
 # $2 secend arg represent output file PATH
 
-lex $1
+flex $1
 gcc lex.yy.c -o $2
 rm lex.yy.c
 ./$2
